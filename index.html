@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For My Love ❤️</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      color: white;
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      margin-top: 0;
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.8;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.15);
+      padding: 30px;
+      margin: 30px 0;
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+
+    .gallery img {
+      width: 220px;
+      max-width: 100%;
+      border-radius: 20px;
+      margin: 10px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+
+    button {
+      background: white;
+      color: #e91e63;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 30px;
+      font-size: 1rem;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    button:hover {
+      transform: scale(1.05);
+    }
+
+    #surprise {
+      display: none;
+      margin-top: 20px;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .footer {
+      margin-top: 40px;
+      font-size: 1rem;
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>Hi My Love ❤️</h1>
+    <p>This website is made specially for you.</p>
+
+    <div class="card">
+      <h2>My Love Letter 💌</h2>
+      <p>
+        Nuvvu naa jeevitham lo ki vachina tarvata,<br>
+        prati roju marinta beautiful ayyindi.<br><br>
+
+        Nee navvu naa favorite thing.<br>
+        Nee mata naa happiness.<br>
+        Nee presence naa strength.<br><br>
+
+        I love you forever and always. ❤️
+      </p>
+    </div>
+
+    <div class="card gallery">
+      <h2>Our Memories 📸</h2>
+      <!-- Replace these with your own photo file names -->
+      <img src="photo1.jpg" alt="Our Photo 1" />
+      <img src="photo2.jpg" alt="Our Photo 2" />
+    </div>
+
+    <div class="card">
+      <h2>Why I Love You ❤️</h2>
+      <p>
+        💖 Nee smile<br>
+        🌸 Nee kindness<br>
+        😊 Nee care<br>
+        🫂 Nannu ardham chesukune vidhanam<br>
+        ❤️ Everything about you
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Special Surprise 🎁</h2>
+      <button onclick="showMessage()">Click Here My Love</button>
+      <div id="surprise">
+        You are my today, tomorrow, and forever ❤️
+      </div>
+    </div>
+
+    <div class="footer">
+      Made with endless love ❤️
+    </div>
+
+  </div>
+
+  <script>
+    function showMessage() {
+      document.getElementById("surprise").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
